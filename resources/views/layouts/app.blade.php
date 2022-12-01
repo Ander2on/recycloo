@@ -61,7 +61,7 @@
                         <!--Verifica si cuenta con un rol y  muestra el campo-->
                         @canany(['ver-rol','crear-rol','editar-rol','borrar-rol','ver-usuario','crear-usuario','editar-usuario','borrar-usuario',])
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/dashboard') }}">{{ __('Usuarios y Roles') }}</a>
+                            <a class="nav-link" href="{{ url('/dashboard2') }}">{{ __('Usuarios y Roles') }}</a>
                         </li>
                         @endcanany
 
