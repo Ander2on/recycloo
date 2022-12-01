@@ -31,7 +31,7 @@ Route::group(['middleware'=>'auth'], function(){
 });
 
 //Muestra la vista de usuarios y roles
-Route::resource('/dashboard', DashboardController::class)->middleware('auth');
+Route::resource('/dashboard2', DashboardController::class)->middleware('auth');
 
 //Muestra la vista home
 Route::get('/', [HomeController::class, 'index'])->name('home');
